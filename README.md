@@ -14,7 +14,7 @@
 
 ## Audit report 
 
-![audit-report-HERE](./audit-data/report.pdf)
+[audit-report-HERE](./audit-data/report.pdf)
 
 ## Diagram
 
