@@ -4,7 +4,7 @@
 - [TSwap](#tswap)
   - [Audit report](#audit-report)
   - [Diagram](#overview-diagram)
-  - [What's TSwap](#What's TSwap)
+  - [What's TSwap](#What's-TSwap)
   - [TSwap Pools](#tswap-pools)
   - [Liquidity Providers](#liquidity-providers)
     - [Why would I want to add tokens to the pool?](#why-would-i-want-to-add-tokens-to-the-pool)
