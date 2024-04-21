@@ -20,7 +20,7 @@
 
 ![t-swap](./images/diagrams/t-swap-with-factory.png)
 
-## About
+## What's TSwap?
 
 This project is meant to be a permissionless way for users to swap assets between each other at a fair price. You can think of T-Swap as a decentralized asset/token exchange (DEX). 
 T-Swap is known as an [Automated Market Maker (AMM)](https://chain.link/education-hub/what-is-an-automated-market-maker-amm) because it doesn't use a normal "order book" style exchange, instead it uses "Pools" of an asset. 
@@ -48,7 +48,7 @@ There are 2 functions users can call to swap tokens in the pool.
 
 We will talk about what those do in a little. 
 
-## Liquidity Providers
+## Liquidity Providers(Whales)
 
 ![with-lps](images/diagrams/liquidity-providers.png)
 
@@ -72,7 +72,7 @@ When you deposit tokens into the protocol,  you are rewarded with an LP token. Y
 
 Note, in practice, the pool would have slightly different values than 1,400.3 WETH & 1,600 USDC due to the math below. 
 
-## Core Invariant 
+## Core Invariant (Math behind AMM)
 
 Our system works because the ratio of Token A & WETH will always stay the same. Well, for the most part. Since we add fees, our invariant technially increases. 
 
