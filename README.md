@@ -1,6 +1,5 @@
 # TSwap Audit
-- [TSwap](#tswap)
-- [Audit report](#audit-report)
+- [Audit Report](#audit-report)
 - [Diagram](#overview-diagram)
 - [What's TSwap?](#whats-tswap)
   - [TSwap Pools](#tswap-pools)
