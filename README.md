@@ -1,20 +1,18 @@
 # TSwap Audit
-
-
 - [TSwap](#tswap)
-  - [Audit report](#audit-report)
-  - [Diagram](#overview-diagram)
-  - [What's TSwap?](#whats-tswap)
+- [Audit report](#audit-report)
+- [Diagram](#overview-diagram)
+- [What's TSwap?](#whats-tswap)
   - [TSwap Pools](#tswap-pools)
   - [Liquidity Providers](#liquidity-providers)
     - [Why would I want to add tokens to the pool?](#why-would-i-want-to-add-tokens-to-the-pool)
     - [LP Example](#lp-example)
-  - [Core Invariant (Math behind AMM)](#core-invariant)
-  - [Make a swap](#make-a-swap)
+- [Core Invariant (Math behind AMM)](#core-invariant)
+- [Make a swap](#make-a-swap)
 
-## Audit report 
+## Audit Report 
 
-[audit-report-HERE](./audit-data/report.pdf)
+[Audit-Report-HERE](./audit-data/report.pdf)
 
 ## Diagram
 
