@@ -21,7 +21,7 @@
 
 This project is meant to be a permissionless way for users to swap assets between each other at a fair price. You can think of T-Swap as a decentralized asset/token exchange (DEX). 
 T-Swap is known as an [Automated Market Maker (AMM)](https://chain.link/education-hub/what-is-an-automated-market-maker-amm) because it doesn't use a normal "order book" style exchange, instead it uses "Pools" of an asset. 
-It is similar to Uniswap. To understand Uniswap, please watch this video: [Uniswap Explained](https://www.youtube.com/watch?v=DLu35sIqVTM)
+<!-- It is similar to Uniswap. To understand Uniswap, please watch this video: [Uniswap Explained](https://www.youtube.com/watch?v=DLu35sIqVTM) -->
 
 ## TSwap Pools
 
@@ -58,14 +58,14 @@ When you deposit tokens into the protocol,  you are rewarded with an LP token. Y
 
 ### LP Example
 1. LP A adds 1,000 WETH & 1,000 USDC to the USDC/WETH pool
-   1. They gain 1,000 LP tokens
+   - They gain 1,000 LP tokens
 2. LP B adds 500 WETH & 500 USDC to the USDC/WETH pool 
-   1. They gain 500 LP tokens
+   - They gain 500 LP tokens
 3. There are now 1,500 WETH & 1,500 USDC in the pool
 4. User A swaps 100 USDC -> 100 WETH. 
-   1. The pool takes 0.3%, aka 0.3 USDC.
-   2. The pool balance is now 1,400.3 WETH & 1,600 USDC
-   3. aka: They send the pool 100 USDC, and the pool sends them 99.7 WETH
+   - The pool takes 0.3%, aka 0.3 USDC.
+   - The pool balance is now 1,400.3 WETH & 1,600 USDC
+   - aka: They send the pool 100 USDC, and the pool sends them 99.7 WETH
 
 Note, in practice, the pool would have slightly different values than 1,400.3 WETH & 1,600 USDC due to the math below. 
 
@@ -113,5 +113,5 @@ After a pool has liquidity, there are 2 functions users can call to swap tokens 
 
 A user can either choose exactly how much to input (ie: I want to use 10 USDC to get however much WETH the market says it is), or they can choose exactly how much they want to get out (ie: I want to get 10 WETH from however much USDC the market says it is. 
 
-*This codebase is based loosely on [Uniswap v1](https://github.com/Uniswap/v1-contracts/tree/master)*
+<!-- *This codebase is based loosely on [Uniswap v1](https://github.com/Uniswap/v1-contracts/tree/master)* -->
 
