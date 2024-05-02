@@ -45,7 +45,7 @@ There are 2 functions users can call to swap tokens in the pool.
 
 We will talk about what those do in a little. 
 
-## Liquidity Providers(Whales)
+## Liquidity Providers
 
 ![with-lps](images/diagrams/liquidity-providers.png)
 
